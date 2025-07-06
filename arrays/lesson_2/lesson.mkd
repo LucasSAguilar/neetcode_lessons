@@ -1,0 +1,36 @@
+# Valid Anagram
+
+## Problem Description
+
+Given two strings `s` and `t`, return `true` if the two strings are anagrams of each other, otherwise return `false`.
+
+An **anagram** is a string that contains the exact same characters as another string, but the order of the characters can be different.
+
+## Examples
+
+### Example 1:
+- **Input:** `s = "racecar"`, `t = "carrace"`
+- **Output:** `true`
+
+### Example 2:
+- **Input:** `s = "jar"`, `t = "jam"`
+- **Output:** `false`
+
+## Constraints
+
+- `s` and `t` consist of lowercase English letters.
+
+## Solution Approaches
+
+### Approach 1: Sorting
+1. Sort both strings
+2. Compare if they are equal
+
+### Approach 2: Character Frequency
+1. Count frequency of each character in both strings
+2. Compare the frequency maps
+
+### Approach 3: Hash Map
+1. Use a hash map to track character counts
+2. Increment for string `s`, decrement for string `t`
+3. Check if all counts
